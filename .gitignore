@@ -1,0 +1,6 @@
+michelleglauser.com
+*.log
+*.pot
+*.pyc
+.DS_STORE
+config/local
