@@ -35,7 +35,7 @@ p {letter-spacing:.75px;}
 body.homepage p a {margin: -.1em -.1em -1px;padding: .1em .1em 1px; position: relative; text-decoration: none; color:#ebebeb; }
 body.homepage p a:hover {color: #e0e0e0 }
 body.homepage a.button {background:#3ce9eb; color:#fff; }
-body.homepage a.button:hover {background:#6af0b0; color:#fff; }
+body.homepage a.button:hover {background:#53eea4; color:#fff; }
 
 
 /*blog pages*/
@@ -78,15 +78,15 @@ p  {font-family: 'Lato', sans-serif; font-size: 1em; line-height: 1.5em; font-we
 /*navbar*/
 
 .about {border-bottom: 3px solid #ff8350;}
-.coding {border-bottom: 3px solid #6af0b0;}
+.coding {border-bottom: 3px solid #53eea4;}
 .community {border-bottom: 3px solid #3ce9eb;}
-.my_blog {border-bottom: 3px solid #ebadff; }
+.my_blog {border-bottom: 3px solid #e594ff; }
 .contact {border-bottom: 3px solid #ff757a;}
 
 .about:hover {border-bottom:6px solid #ff8350;color: #ff8350;}
-.coding:hover {border-bottom:6px solid #6af0b0; color: #6af0b0;}
+.coding:hover {border-bottom:6px solid #53eea4; color: #53eea4;}
 .community:hover {border-bottom:6px solid #3ce9eb; color: #3ce9eb;}
-.my_blog:hover {border-bottom:6px solid #ebadff; color: #ebadff;}
+.my_blog:hover {border-bottom:6px solid #e594ff; color: #e594ff;}
 .contact:hover {border-bottom:6px solid #ff757a; color: #ff757a;}
 
 
@@ -119,9 +119,9 @@ nav a:active {top: 2px;}
 .post_content img {height:25%; width:25%; float:right; margin:-30px 10px 30px 10px;}
 .post_details {font-size: 1em !important}
 #about {background: #ff8350;  color: #fff; clear: both;}
-#coding {background: #6af0b0; color: #fff;}
+#coding {background: #53eea4; color: #fff;}
 #community {background: #3ce9eb; color: #fff;}
-#my_blog {background: #ebadff; color: #fff}
+#my_blog {background: #e594ff; color: #fff}
 #contact {background: #ff757a; color: #fff}
 
 
