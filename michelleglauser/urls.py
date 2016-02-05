@@ -11,4 +11,5 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'mg_app.views.index', name='home'),
+    url(r'^techtonic/', 'mg_app.views.techtonic', name='techtonic'),
 )
