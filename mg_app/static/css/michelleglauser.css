@@ -90,8 +90,8 @@ p  {font-family: 'Lato', sans-serif; font-size: 1em; line-height: 1.5em; font-we
 /* Navbar */
 
 .about {border-bottom: 3px solid #ff8350;}
-.coding {border-bottom: 3px solid #53eea4;}
-.community {border-bottom: 3px solid #3ce9eb;}
+.coding {border-bottom: 3px solid #3ce9eb;}
+.community {border-bottom: 3px solid #53eea4;}
 .my_blog {border-bottom: 3px solid #e594ff; }
 .contact {border-bottom: 3px solid #ff757a;}
 
@@ -143,8 +143,8 @@ nav a:active {top: 2px;}
 .post_content img {height:auto; max-width:25%; float:right; margin:-30px 10px 30px 10px;}
 .post_details {font-size: 1em !important}
 #about {background: #ff8350;  color: #fff; clear: both;}
-#coding {background: #53eea4; color: #fff;}
-#community {background: #3ce9eb; color: #fff;}
+#coding {background: #3ce9eb; color: #fff;}
+#community {background: #53eea4; color: #fff;}
 #my_blog {background: #e594ff; color: #fff}
 #contact {background: #ff757a; color: #fff}
 
