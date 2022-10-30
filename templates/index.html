@@ -1,14 +1,12 @@
 {% extends "base.html" %}
 
-{% load staticfiles %}
-
 {% block title %}INDEX PAGE{% endblock %}
 
 {% block content %}
 <div id="page">
     <div class="wrapper">
         <header id="mainheader" class="clearfix ">
-        <div id="intro"><h1>MICHELLE GLAUSER</h1><span><br>San Francisco Founder and Web Developer</span></h1></div>
+        <div id="intro"><h1>MICHELLE GLAUSER</h1><span><br>San Francisco Developer and Founder</span></h1></div>
                 <nav class="navbar">
                     <ul>
                         <li><a href="#about" class="about">about me</a> </li>
@@ -25,7 +23,7 @@
             <div id="about" class="posts col">
                 <div class="post_content">
                     <h2>About Me</h2>
-                    <img src="{% static 'images/MichelleGlauserHeadshot.jpg' %}"></img>
+                    <img src="{{ url_for('static', filename='images/MichelleGlauserHeadshot.jpg') }}"></img>
                     <p>Hi! I'm Michelle Glauser.</p>
                     <p>Since joining tech in 2012, I've been passionate about helping underrepresented people join, feel comfortable in, and stay in the software industry. To that end, I:
                     <ul>

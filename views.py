@@ -1,11 +1,8 @@
-import os
-import sys
-
-from dotenv import find_dotenv, load_dotenv
+# from dotenv import find_dotenv, load_dotenv
 from flask import Flask, redirect, render_template, url_for
 from flask_sslify import SSLify
 
-load_dotenv(find_dotenv(usecwd=True))
+# load_dotenv(find_dotenv(usecwd=True))
 
 app = Flask(__name__)
 sslify = SSLify(app)

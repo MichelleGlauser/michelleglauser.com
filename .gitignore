@@ -3,6 +3,12 @@ michelleglauser.com
 *.pot
 *.pyc
 .DS_STORE
+.env
+.venv
+.vscode
+env
+env*
+venv
 config/local
 michelleglauser_com
 staticfiles

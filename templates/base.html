@@ -1,13 +1,11 @@
-{% load staticfiles %}
-{% load url from future %}
 <!DOCTYPE html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="{% static 'css/normalize.css' %}">
-    <link rel="stylesheet" href="{% static 'css/michelleglauser.css' %}">
-    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}">
-    <title>Michelle Glauser - San Francisco Founder and Web Developer</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/michelleglauser.css') }}">
+    <link rel="shortcut icon" href="{{ url_for ('static', filename='images/favicon.ico') }}" type="image/x-icon">
+    <title>Michelle Glauser - San Francisco Developer & Founder</title>
     <link href='https://fonts.googleapis.com/css?family=Lato:100,400,900|Bowlby+One+SC' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script>
