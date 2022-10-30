@@ -12,3 +12,5 @@ venv
 config/local
 michelleglauser_com
 staticfiles
+__pycache__
+build
