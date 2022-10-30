@@ -1,7 +1,6 @@
 import os
 import sys
 
-import pendulum
 from dotenv import find_dotenv, load_dotenv
 from flask import Flask, redirect, render_template, url_for
 from flask_sslify import SSLify
